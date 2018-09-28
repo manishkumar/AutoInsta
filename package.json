@@ -1,0 +1,44 @@
+{
+  "name": "node-scrapper",
+  "version": "1.0.0",
+  "description": "Node scrapper",
+  "main": "scrapper.js",
+  "scripts": {
+    "watch": "./node_modules/.bin/babel -w pages/ libs/ index.js -d build/",
+    "prewatch": "npm run clean",
+    "clean": "./node_modules/.bin/rimraf build/*",
+    "build:dev": "./node_modules/.bin/babel pages/ libs/ index.js -d build/"
+  },
+  "keywords": [
+    "Scrapper"
+  ],
+  "author": "Manish",
+  "license": "ISC",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "devDependencies": {
+    "babel-cli": "^6.11.4",
+    "babel-core": "^6.13.2",
+    "babel-preset-es2015": "^6.13.2",
+    "babel-polyfill": "^6.13.0",
+    "babel-register": "6.6.5",
+    "rimraf": "^2.5.2"
+  },
+  "dependencies": {
+    "assert-js": "0.1.0",
+    "babel-plugin-transform-builtin-extend": "1.1.0",
+    "babel-plugin-transform-runtime": "6.6.0",
+    "babel-polyfill": "6.7.4",
+    "babel-runtime": "6.6.1",
+    "csv": "^1.1.0",
+    "jszip": "^2.2.0",
+    "jszip-utils": "git://github.com/Stuk/jszip-utils.git",
+    "phantom": "^2.1.17",
+    "phantomjs": "^2.1.7",
+    "q": "^1.4.1",
+    "selenium": "^2.20.0",
+    "selenium-webdriver": "^2.53.3"
+  }
+}

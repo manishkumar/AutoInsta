@@ -1,0 +1,19 @@
+{
+ 	"userAgent": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36",
+
+ 	"baseUrl": "https://www.instagram.com/",
+
+ 	"username": "user@name.com",
+
+ 	"password": "password",
+
+ 	"minWaitTime": 5,
+
+ 	"maxWaitTime": 7,
+
+ 	"csvPath": "../file.csv",
+
+ 	"snapshotDirectory": "../debug/snapshots/",
+
+ 	"logFile": "../debug/log.txt"
+ }
